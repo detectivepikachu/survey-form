@@ -1,0 +1,76 @@
+<html>
+    <link rel="stylesheet" href="style.css">
+<div class="div-content">
+  <h1 id="title"> Product Feedback</h1>
+<p id="description"> Thank you for choosing our product. Kindly fill the form below and tell us what you think about our product and our customer service.</p>
+<form id="survey-form">
+  <ul id="form">
+    <p><label for="name" id="name-label">Name:</label></p>
+  <input type="text" class="input" id="name"  placeholder="Enter your name" required>
+  </ul>
+  <ul id="form">
+    <p><label for="email" id="email-label">Email ID:</label></p>
+  <input id="email" class="input" type="email" placeholder="Enter your valid Email ID" required>
+  </ul> 
+  <ul id="form">
+    <p><label for="age" id="number-label">Age:</label></p>
+    <input id="number" class="input" type="number" placeholder="Age" min=18 max=85 required>
+  </ul>
+  <ul id="form">
+    <p>Product type:</p>
+    <select class="input" id="dropdown" required>
+      <option disabled selected value>Select Appliance Category</option>
+      <option value="home appliance">Home Appliance</option>
+      <option value="office appliance">Office Appliance</option>
+      <option value="kitchen appliance">Kitchen Appliance</option>
+      <option value="cleaning appliance">Cleaning Appliance</option>
+    </select>
+      </ul>
+      <ul id="form">
+        <p>Product name:</p>
+        <input type="text" class="input" placeholder="Enter the model name" required>
+         </ul>
+        <ul id="form">
+           <p>Customer Satisfaction:</p>
+            <ul>
+              <label><input type="radio" value="Complete Satisfaction" name="customer service">Very Satisfied</label>
+            </ul>
+            <ul>
+          <label><input type="radio" value="Satisfaction" name="customer service">Satisfied</label>                                
+         </ul>
+            <ul>
+              <label><input type="radio" value="fine" name="customer service">Just fine</label>
+            </ul>
+            <ul>
+              <label><input type="radio" value="not great" name="customer service">Not so great</label>
+            </ul>
+            <ul>
+          <label><input type="radio" value="disatisfaction" name="customer service">Dissatisfied</label>
+            </ul>
+          </ul>
+          <ul id="form">
+            <p>What can we improve?</p>
+            <ul>
+              <label><input type="checkbox" value="look into packaging">Product Packaging</label>
+            </ul>
+            <ul>
+              <label><input type="checkbox" value="improve customer service">Customer Service</label>
+            </ul>
+            <ul>
+            <label><input type="checkbox" value="deliver faster">Delivery timing</label>
+            </ul>
+            <ul>
+              <label><input type="checkbox" value="relook prices">Pricing</label>
+            </ul>
+            <ul>
+              <label><input type="checkbox" value="product design">Product Design</label>
+            </ul>
+            <ul id="form">
+          <p>Additional Comments:</p>
+          <textarea placeholder="Give your additional comments here..."></textarea>
+            </ul>
+            <button id=submit>Submit</button>
+            </form>
+            </div>
+            </html>
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
